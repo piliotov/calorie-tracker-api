@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/calories}
+    username: ${DB_USER:calories}
+    password: ${DB_PASSWORD:calories}
